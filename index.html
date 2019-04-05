@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+        }
+        table{
+            width: 100%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lí sản phẩm</h1>
+        <div class="row">
+            <div>
+                <h3>Tìm kiếm</h3>
+                <input type="search" id="id_search">
+                <button id="search" type="button" onclick="search()">Search</button>
+            </div>
+            <div id="info">
+                <h3><b>Thông tin về sản phẩm tìm theo id</b></h3>
+                <div>Id:<span id="id"></span></div>
+                <div>Name:<span id="name"></span></div>
+                <div>Price:<span id="price"></span></div>
+                <div>Type:<span id="type"></span></div>
+            </div>
+            <div class="container">
+                <table class="related_table" style="width:60%; float: left">
+                    <b><h3>Sản phẩm liên quan</h3></b>
+                    <tr>
+                        <th>Id</th>
+                        <th>Tên</th>
+                        <th>Giá</th> 
+                        <th>Loại</th>
+                    </tr>
+                </table>
+                <table class="all_product_table" style="width:60%; float: left">
+                <b><h3>Tất cả sản phẩm</h3></b>
+                    <tr>
+                        <th>Id</th>
+                        <th>Tên</th>
+                        <th>Giá</th> 
+                        <th>Loại</th>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+    </div>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</html>

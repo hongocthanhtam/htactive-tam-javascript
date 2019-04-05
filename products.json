@@ -1,0 +1,56 @@
+[
+    {
+        "id" : "1",
+        "name" : "banana",
+        "price" : "100",
+        "type" : "fruit"
+    },
+    {
+        "id" : "2",
+        "name" : "mango",
+        "price" : "200",
+        "type" : "fruit"
+    },
+    {
+        "id" : "3",
+        "name" : "dragonfruit",
+        "price" : "300",
+        "type" : "fruit"
+    },
+    {
+        "id" : "4",
+        "name" : "onion",
+        "price" : "100",
+        "type" : "vegetable"
+    },
+    {
+        "id" : "5",
+        "name" : "cabbage",
+        "price" : "200",
+        "type" : "vegetable"
+    },
+    {
+        "id" : "6",
+        "name" : "potato",
+        "price" : "300",
+        "type" : "vegetable"
+    },
+    {
+        "id" : "7",
+        "name" : "sunflower",
+        "price" : "100",
+        "type" : "flower"
+    },
+    {
+        "id" : "8",
+        "name" : "carnation",
+        "price" : "200",
+        "type" : "flower"
+    },
+    {
+        "id" : "9",
+        "name" : "cherryblossom",
+        "price" : "300",
+        "type" : "flower"
+    }
+]
